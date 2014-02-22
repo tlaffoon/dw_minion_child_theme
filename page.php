@@ -6,11 +6,7 @@
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php get_template_part( 'content', 'single' ); ?>
-
-					<?php dw_minion_content_nav( 'nav-below' ); ?>
-
-					<?php dw_minion_related_post($post->ID); ?>
+					<?php get_template_part( 'content', 'page' ); ?>
 
 					<?php if ( comments_open() ) comments_template(); ?>
 

@@ -5,7 +5,7 @@
       <div class="container">
         <div class="site-info">
 
-			
+			<?php print("A bit of randomness: "); ?>			
 			<?php include("./wp-includes/fortune.php"); ?>
 
 
