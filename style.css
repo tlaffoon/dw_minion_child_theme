@@ -1,0 +1,13 @@
+/*
+ * *  Theme Name:     TJL Custom
+ * *  Description:    DW-Minion Child Theme
+ * *  Author:         TJL
+ * *  Template:       dw-minion
+ * *  Version:        1.0.0
+ * *                                       */
+
+@import url("../dw-minion/style.css");
+
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
