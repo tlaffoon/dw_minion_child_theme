@@ -12,4 +12,9 @@
 .gallery-caption {}
 .bypostauthor {}
 
-.fortune
+.fortune {}
+.stardate {
+	text-align:justify;
+	font-weight:bold;	
+}
+.custom_contact {}

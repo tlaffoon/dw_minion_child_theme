@@ -17,7 +17,6 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-
 	<div class="container clearfix">
 		<?php do_action( 'before' ); ?>
 		<div id="navigation" class="site-nav">
@@ -25,6 +24,10 @@
 				<div class="container">
 					<header id="masthead" class="site-header" role="banner">
 						<?php dw_minion_logo(); ?>
+					 
+						<!-- Added Stardate Function -->
+						<div class="stardate"><?php include("./wp-includes/stardate.php"); ?></div>
+
 					</header>
 					<?php get_sidebar(); ?>
 				</div>
