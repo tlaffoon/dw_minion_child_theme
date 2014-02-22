@@ -17,6 +17,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
+	<?php include("./wp-includes/fortune.php"); ?>
 	<div class="container clearfix">
 		<?php do_action( 'before' ); ?>
 		<div id="navigation" class="site-nav">

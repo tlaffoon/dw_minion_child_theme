@@ -11,3 +11,5 @@
 .sticky {}
 .gallery-caption {}
 .bypostauthor {}
+
+.headerbanner { display:block; margin: 10px auto; width: 480px}
