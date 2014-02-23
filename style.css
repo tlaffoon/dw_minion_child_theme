@@ -13,8 +13,12 @@
 .bypostauthor {}
 
 .fortune {}
+
+.site-title { text-align:center; }
 .stardate {
-	text-align:justify;
+	text-align:center;
 	font-weight:bold;	
 }
-.custom_contact {}
+.wpcf7-form-control-wrap {
+	width: 480px
+}
