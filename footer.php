@@ -5,9 +5,8 @@
       <div class="container">
         <div class="site-info">
 
-			<?php print("A bit of randomness: "); ?>			
-			<?php include("./wp-includes/fortune.php"); ?>
-
+			<div class="fortune-header"><?php print("A bit of randomness: "); ?></div>
+			<div class="fortune-content"><?php include("./wp-includes/fortune.php"); ?></div>
 
         </div>
       </div>

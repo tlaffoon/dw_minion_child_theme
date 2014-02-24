@@ -6,11 +6,11 @@
 
 					<section class="error-404 not-found">
 						<header class="page-header">
-							<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'dw-minion' ); ?></h1>
+							<h1 class="page-title"><?php _e( '{Error 404} You lost, feller?', 'dw-minion' ); ?></h1>
 						</header>
 
 						<div class="page-content">
-							<p><?php _e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'dw-minion' ); ?></p>
+							<p><?php _e( 'You don\'t look like you\'re from around here... maybe you better skedaddle.', 'dw-minion' ); ?></p>
 
 							<?php get_search_form(); ?>
 						</div>
